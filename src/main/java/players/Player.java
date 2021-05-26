@@ -14,10 +14,15 @@ public abstract class Player {
         return name;
     }
 
+    public void setHealthPoints(int healthPoints) {
+        this.healthPoints = healthPoints;
+    }
+
     public int getHealthPoints() {
         return healthPoints;
     }
 
-    // add takeDamage()
+
+
 
 }
