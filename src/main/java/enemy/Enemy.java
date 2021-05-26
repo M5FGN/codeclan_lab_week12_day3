@@ -1,6 +1,6 @@
 package enemy;
 
-public class Enemy {
+public abstract class Enemy {
 
     private String name;
     int healthPoints;
